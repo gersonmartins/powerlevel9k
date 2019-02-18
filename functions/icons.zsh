@@ -32,7 +32,7 @@ case $POWERLEVEL9K_MODE in
       RUBY_ICON                      $'\uE847 '             # 
       AWS_ICON                       $'\uE895'              # 
       AWS_EB_ICON                    $'\U1F331 '            # 🌱
-      GOOGLE_ICON                    $'\UF1A0 '             #
+      GOOGLE_ICON                    $'\UF1A0'              #
       BACKGROUND_JOBS_ICON           $'\uE82F '             # 
       TEST_ICON                      $'\uE891'              # 
       TODO_ICON                      $'\u2611'              # ☑
@@ -133,7 +133,7 @@ case $POWERLEVEL9K_MODE in
       RUBY_ICON                      $'\uF219 '             # 
       AWS_ICON                       $'\uF270'              # 
       AWS_EB_ICON                    $'\U1F331 '            # 🌱
-      GOOGLE_ICON                    $'\UF1A0 '             #
+      GOOGLE_ICON                    $'\UF1A0'              #
       BACKGROUND_JOBS_ICON           $'\uF013 '             # 
       TEST_ICON                      $'\uF291'              # 
       TODO_ICON                      $'\u2611'              # ☑
@@ -239,7 +239,7 @@ case $POWERLEVEL9K_MODE in
       RUBY_ICON                      '\u'$CODEPOINT_OF_OCTICONS_RUBY' '             # 
       AWS_ICON                       '\u'$CODEPOINT_OF_AWESOME_SERVER               # 
       AWS_EB_ICON                    $'\U1F331 '                                    # 🌱
-      GOOGLE_ICON                    $'\UF1A0 '                                     # 
+      GOOGLE_ICON                    $'\UF1A0'                                      # 
       BACKGROUND_JOBS_ICON           '\u'$CODEPOINT_OF_AWESOME_COG' '               # 
       TEST_ICON                      '\u'$CODEPOINT_OF_AWESOME_BUG                  # 
       TODO_ICON                      '\u'$CODEPOINT_OF_AWESOME_CHECK_SQUARE_O       # 
@@ -333,7 +333,7 @@ case $POWERLEVEL9K_MODE in
       RUBY_ICON                      $'\uF219 '             # 
       AWS_ICON                       $'\uF270'              # 
       AWS_EB_ICON                    $'\UF1BD  '            # 
-      GOOGLE_ICON                    $'\UF1A0 '             # 
+      GOOGLE_ICON                    $'\UF1A0'              # 
       BACKGROUND_JOBS_ICON           $'\uF013 '             # 
       TEST_ICON                      $'\uF188'              # 
       TODO_ICON                      $'\uF133'              # 
