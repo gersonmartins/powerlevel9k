@@ -331,12 +331,12 @@ prompt_aws_eb_env() {
 }
 
 ################################################################
-# Google Cloud Project
-prompt_gcloud() {
+# Google Cloud Platform Project
+prompt_gcp() {
   local gcloud_project=$(gcloud config list --format 'value(core.project)' 2>/dev/null)
 
   if [[ -n "$gcloud_project" ]]; then
-    "$1_prompt_segment" "$0" "$2" red white "$gcloud_project" 'GOOGLE_ICON'
+    "$1_prompt_segment" "$0" "$2" red white "$gcloud_project" 'GCP_ICON'
   fi
 }
 
