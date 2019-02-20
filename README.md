@@ -143,6 +143,8 @@ The segments that are currently available are:
 * **AWS Segments:**
     * [`aws`](#aws) - The current AWS profile, if active.
     * `aws_eb_env` - The current Elastic Beanstalk Environment.
+* **GCP Segments:**
+    * [`gcp`](#gcp) - The current GCP project, if active.
 * `docker_machine` - The current Docker Machine.
 * `kubecontext` - The current context of your `kubectl` configuration.
 * `dropbox` - Indicates Dropbox directory and syncing status using `dropbox-cli`
@@ -471,6 +473,12 @@ The `disk_usage` segment will show the usage level of the partition that your cu
 |`POWERLEVEL9K_DISK_USAGE_ONLY_WARNING`|false|Hide the segment except when usage levels have hit warning or critical levels.|
 |`POWERLEVEL9K_DISK_USAGE_WARNING_LEVEL`|90|The usage level that triggers a warning state.|
 |`POWERLEVEL9K_DISK_USAGE_CRITICAL_LEVEL`|95|The usage level that triggers a critical state.|
+
+##### gcp
+
+If you would like to displaly the [current GCP project](https://cloud.google.com/docs/overview/#projects),
+add `gcp` segment to one of the prompts. This segment uses [Google Cloud SDK](https://cloud.google.com/sdk) to
+retrieve the current GCP project.
 
 ##### host
 
